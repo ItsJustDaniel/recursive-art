@@ -14,7 +14,7 @@ function draw(){
 
 function outerTriangle(len,ang){
     push()
-    stroke(255,0,0)
+
     line(0,0,0,len);
     innerTriangle(len/2,ang)
     translate(0,len);
